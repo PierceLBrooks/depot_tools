@@ -16,6 +16,23 @@
       "message": "Without change:\n```\n➜  428171766 git clone https://chromium.googlesource.com/chromium/tools/depot_tools \u0026\u0026 cd depot_tools \u0026\u0026 $(pwd)/git_cl.py comments --issue 6533317\n...\nHTTP/1.1 404 Not Found\nrobot comments unsupported\n```\n\nWith https://crrev.com/c/6690195:\n```\n➜  depot_tools git:(main) git cl patch 6690195 \u0026\u0026 $(pwd)/git_cl.py comments --issue 6533317\n...\n2025-05-09 19:42:02 UTC   gavinmak@google.com\n  Patch Set 3:\n\n  This change is ready for review.\n\n2025-05-09 20:16:00 UTC   sokcevic@chromium.org\n  Patch Set 3: Code-Review+1\n\n2025-05-11 13:12:17 UTC   2chiefk@gmail.com\n  Patch Set 3:\n\n  (1 comment)\n\n  /PATCHSET_LEVEL\n    PS3, File comment: https://crrev.com/c/6533317/3//PATCHSET_LEVEL#\n    Nice\n\n2025-05-12 16:07:18 UTC   gavinmak@google.com\n  Patch Set 3: Commit-Queue+2\n```",
       "revId": "f453d149aa1f53325afddbe2968a1a67b48e05b7",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "43fabb05_60ab9c59",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1303432
+      },
+      "writtenOn": "2025-07-01T21:13:29Z",
+      "side": 1,
+      "message": "Awesome. Thanks for helping verify Gavin.",
+      "revId": "f453d149aa1f53325afddbe2968a1a67b48e05b7",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
