@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "940ab88a_951b353b",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1170419
+      },
+      "writtenOn": "2025-07-01T20:09:31Z",
+      "side": 1,
+      "message": "Will let chrome gardeners know about this CL when it lands, in case it makes the \"all\" presubmit tester fail:\nhttps://ci.chromium.org/ui/p/chromium/builders/ci/linux-presubmit",
+      "revId": "61f2bb0d5911c2258e5dd5b2eb014c2491ba783a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
