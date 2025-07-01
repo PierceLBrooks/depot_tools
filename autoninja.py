@@ -357,11 +357,11 @@ def _main_inner(input_args, build_id, should_collect_logs=False):
 
         if use_reclient is None:
             if use_remoteexec:
-                values = _get_remoteexec_defaults()
-                if use_siso:
-                    use_reclient = values["use_reclient_on_siso"]
-                else:
-                    use_reclient = values["use_reclient_on_ninja"]
+                if values := _get_remoteexec_defaults():
+                    if use_siso:
+                        use_reclient = values["use_reclient_on_siso"]
+                    else:
+                        use_reclient = values["use_reclient_on_ninja"]
 
     # Use the server for target_os="android" (where it is relevant), unless it
     # is disabled via GN arg.
