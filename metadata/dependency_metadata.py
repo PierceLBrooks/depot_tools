@@ -460,7 +460,7 @@ class DependencyMetadata:
             A string indicating the sufficiency status:
             - 'sufficient:CPE' if a CPE prefix is provided.
             - 'sufficient:URL and Revision' if URL and Revision are provided.
-            - 'sufficient:URL and version' if URL and version are provided.
+            - 'sufficient:URL and Version' if URL and version are provided.
             - 'ignore:Static' if the dependency's update mechanism is static.
             - 'insufficient' otherwise.
         """
