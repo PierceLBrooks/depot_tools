@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "71d6cfeb_d776b384",
+        "filename": "metadata/dependency_metadata.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 463,
+      "author": {
+        "id": 1553262
+      },
+      "writtenOn": "2025-07-07T23:06:33Z",
+      "side": 1,
+      "message": "nit: consistency casing. \n```suggestion\n            - \u0027sufficient:URL and Version\u0027 if URL and version are provided.\n```",
+      "revId": "75f33db7e00e4e25acc05e097ccb3eb8cf1a5b9e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5242b888_d6a61d38",
+        "filename": "metadata/dependency_metadata.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 464,
+      "author": {
+        "id": 1553262
+      },
+      "writtenOn": "2025-07-07T23:06:33Z",
+      "side": 1,
+      "message": "I\u0027m still not totally onboard with assuming all the static dependencies are not worth scanning. There could still be a vuln and we would still need to know..it\u0027s just that we\u0027ll have to fix it ourselves.",
+      "revId": "75f33db7e00e4e25acc05e097ccb3eb8cf1a5b9e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
