@@ -33,6 +33,24 @@
       "message": "I\u0027m still not totally onboard with assuming all the static dependencies are not worth scanning. There could still be a vuln and we would still need to know..it\u0027s just that we\u0027ll have to fix it ourselves.",
       "revId": "75f33db7e00e4e25acc05e097ccb3eb8cf1a5b9e",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ae19ade2_e1c63e9b",
+        "filename": "metadata/dependency_metadata.py",
+        "patchSetId": 2
+      },
+      "lineNbr": 464,
+      "author": {
+        "id": 3388142
+      },
+      "writtenOn": "2025-07-07T23:28:44Z",
+      "side": 1,
+      "message": "I agree, I think they are worth scanning, and they are still scanned, I\u0027m just not prioritising sifting through that subset at this point.\n* I\u0027ve factored this in by prioritising returning \u0027sufficient\u0027 results first.\n* With this data we can audit this gap and see if it\u0027s possible to provide a point of divergence.\n* These have been risk accepted for being static.\n* They contribute to a lot of noise.\n* We are less likely to get a CVE for one of these.\n* This is not a permanent \u0027we don\u0027t care\u0027, we can later break out the ones that have a mergebase e.g. HardFork, and require vuln coverage for these.",
+      "parentUuid": "5242b888_d6a61d38",
+      "revId": "75f33db7e00e4e25acc05e097ccb3eb8cf1a5b9e",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
