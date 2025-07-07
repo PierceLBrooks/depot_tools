@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4c34b921_45bc5da8",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1367998
+      },
+      "writtenOn": "2025-07-07T15:28:29Z",
+      "side": 1,
+      "message": "FWIW I can still access this repo on Gitiles",
+      "range": {
+        "startLine": 9,
+        "startChar": 5,
+        "endLine": 9,
+        "endChar": 25
+      },
+      "revId": "d2fd20b671edb7c870c852e71ac96fb3696e9678",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
