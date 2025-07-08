@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "651b36f0_5d2693c8",
+        "filename": "metadata/dependency_metadata.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 482,
+      "author": {
+        "id": 1378025
+      },
+      "writtenOn": "2025-07-08T04:31:56Z",
+      "side": 1,
+      "message": "can you add a test",
+      "revId": "2e5f86fd4f7bbdded00457c8e712066378c6448c",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
