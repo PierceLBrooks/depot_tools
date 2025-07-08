@@ -471,6 +471,12 @@ class DependencyMetadata:
                 return "sufficient:URL and Revision"
             if self.version:
                 return "sufficient:URL and Version"
+
+        raw_url = self._metadata.get(known_fields.URL, None)
+        if raw_url is not None and known_fields.URL.repo_is_canonical(raw_url):
+            return "ignore:Canonical"
+        if raw_url is not None and known_fields.URL.repo_is_internal(raw_url):
+            return "ignore:Internal"
         if self.update_mechanism and self.update_mechanism[0].lower() == "static":
             return "ignore:Static"
 
