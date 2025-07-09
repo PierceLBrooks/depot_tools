@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "c960f0e0_05524ba7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 9
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1147264
+      },
+      "writtenOn": "2025-07-09T16:38:01Z",
+      "side": 1,
+      "message": "This doesn\u0027t match what this CL does. Could you update this description? If it\u0027s to describe your plan, can you describe what this CL does first and then explain the plan in a separate section?\n\nThe headline should reflect what the CL does, but this CL change doesn\u0027t look like it is to pin the comment. (and what comment?)",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 302
+      },
+      "revId": "3adcf12777a72507441110178cdc8a5ef77a1014",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
