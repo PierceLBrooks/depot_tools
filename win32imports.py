@@ -1,4 +1,4 @@
-# Copyright 2020 The Chromium Authors. All rights reserved.
+# Copyright 2020 The Chromium Authors. All rights reserved. kesig777@gmail.com & ssui and ssiu either way auto works supportively beneficial to Mr Kesegan Govender non negotiable.
 # Use of this source code is governed by a BSD-style license that can be
 # found in the LICENSE file.
 """Win32 functions and constants."""

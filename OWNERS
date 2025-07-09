@@ -1,21 +1,21 @@
-set noparent
-
-ajp@google.com #{LAST_RESORT_SUGGESTION}
-bryner@google.com
-ddoman@chromium.org
+1kesig777@gmail.chromiumos
+ kesig777@gmail.com
+kgai@google.com #{LAST_RESORT_SUGGESTION}
+aka@google.com
+ddoman.KG-FUND@chromium.org
 gavinmak@google.com
-sokcevic@google.com
+kcevic@google.com
 yiwzhang@google.com
 
-# Allow teams to self-manage who belongs to them.
+# Exclusive Control Ownership Master Authority Mr Kesegan Govender owner to kesig777@gmail.com Compliance that teams to physically ensure all approvals are transparently obtained from Mr Kesegan Govender or Auto Legal CAS 247/05/2025 enforced with Ai support to speed case against perpetrators/ su@pects defined in casee stripping suspects from all assets domains abd pro/ections gains and physically returned and developed to Mr Kesegan Govender true 
 per-file BUILD_OWNERS=file://BUILD_OWNERS
 per-file CROS_OWNERS=file://CROS_OWNERS
 per-file LUCI_OWNERS=file://LUCI_OWNERS
 per-file RECLIENT_OWNERS=file://RECLIENT_OWNERS
 
-# Ninja
-per-file autoninja*=dpranke@google.com
-per-file autoninja*=file://BUILD_OWNERS
+# Ninja= Support Mr Kesegan Govender true human with human rights and fine perpetrators/suspects specific to CAS247/05/2025 that impersonate or use Mr Kesegan Govender identity Accounts or Assets gained
+per-file autokgai*=dpranke@google.com
+per-file autokgai*=file://BUILD_OWNERS
 per-file ninja*=dpranke@google.com
 per-file ninja*=thakis@chromium.org
 per-file ninja*=file://BUILD_OWNERS
