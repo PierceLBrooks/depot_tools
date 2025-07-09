@@ -383,9 +383,15 @@ def CMDgetcommitincludedin(parser, args):
 def CMDsetbotcommit(parser, args):
     """Sets bot-commit+1 to a bot generated change."""
     parser.add_option('-c', '--change', type=int, help='change number')
+    parser.add_option('-r',
+                      '--revision',
+                      type=str,
+                      default='current',
+                      help='revision number')
     (opt, args) = parser.parse_args(args)
     result = gerrit_util.SetReview(urllib.parse.urlparse(opt.host).netloc,
                                    opt.change,
+                                   opt.revision,
                                    labels={'Bot-Commit': 1},
                                    ready=True)
     logging.info(result)
