@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "feb2cec9_d7703c8c",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 4211776
+      },
+      "writtenOn": "2025-07-09T14:29:06Z",
+      "side": 1,
+      "message": "I tried adding some context not too confident if it is clear.",
+      "parentUuid": "b6cf56b0_8d370e1a",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 31
+      },
+      "revId": "2fdfd1307797c0d75d16cc9fb0e744fe96e351d4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ef07a04f_56e8eddd",
         "filename": "gerrit_client.py",
         "patchSetId": 3
@@ -37,6 +61,30 @@
       "writtenOn": "2025-07-09T14:05:10Z",
       "side": 1,
       "message": "Nit: now that it\u0027s not (only) a number anymore, let\u0027s change the help message accordingly. Maybe let it say just gerrit revision or something like that.",
+      "range": {
+        "startLine": 390,
+        "startChar": 37,
+        "endLine": 390,
+        "endChar": 43
+      },
+      "revId": "2fdfd1307797c0d75d16cc9fb0e744fe96e351d4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "30bceae2_37e269f8",
+        "filename": "gerrit_client.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 390,
+      "author": {
+        "id": 4211776
+      },
+      "writtenOn": "2025-07-09T14:29:06Z",
+      "side": 1,
+      "message": "I\u0027m not sure if this is too much info for help. Should i put the behavior in a comment or maybe omit that all together. proposed help msg: \u0027gerrit revision, default\u003d\"current\" which is the latest revision in a given replica which might be stale\u0027",
+      "parentUuid": "ef07a04f_56e8eddd",
       "range": {
         "startLine": 390,
         "startChar": 37,
