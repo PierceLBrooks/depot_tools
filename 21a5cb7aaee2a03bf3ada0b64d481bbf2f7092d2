@@ -45,6 +45,54 @@
       },
       "revId": "21a5cb7aaee2a03bf3ada0b64d481bbf2f7092d2",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "613128c4_72a8f842",
+        "filename": "gerrit_client.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 4211776
+      },
+      "writtenOn": "2025-07-09T13:03:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "f9c39b14_d34ec163",
+      "range": {
+        "startLine": 386,
+        "startChar": 47,
+        "endLine": 386,
+        "endChar": 50
+      },
+      "revId": "21a5cb7aaee2a03bf3ada0b64d481bbf2f7092d2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e4722300_6197d71c",
+        "filename": "gerrit_client.py",
+        "patchSetId": 1
+      },
+      "lineNbr": 386,
+      "author": {
+        "id": 4211776
+      },
+      "writtenOn": "2025-07-09T13:03:35Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d6172b91_05da2745",
+      "range": {
+        "startLine": 386,
+        "startChar": 4,
+        "endLine": 386,
+        "endChar": 21
+      },
+      "revId": "21a5cb7aaee2a03bf3ada0b64d481bbf2f7092d2",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
