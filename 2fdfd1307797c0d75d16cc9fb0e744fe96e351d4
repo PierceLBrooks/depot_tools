@@ -50,6 +50,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "7f569602_3e75b3d7",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 3578280
+      },
+      "writtenOn": "2025-07-09T14:51:28Z",
+      "side": 1,
+      "message": "I think it\u0027s clear enough now, thanks! Just two minor things that I would change:\n\n1. Change the first line to something like `Pin the comment to new patch-set in gerrit update_files method`\n2. Remove the b.corp.google.com link from description as it\u0027s not recommended to reference internal things in public repos",
+      "parentUuid": "feb2cec9_d7703c8c",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 31
+      },
+      "revId": "2fdfd1307797c0d75d16cc9fb0e744fe96e351d4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "ef07a04f_56e8eddd",
         "filename": "gerrit_client.py",
         "patchSetId": 3
@@ -85,6 +109,30 @@
       "side": 1,
       "message": "I\u0027m not sure if this is too much info for help. Should i put the behavior in a comment or maybe omit that all together. proposed help msg: \u0027gerrit revision, default\u003d\"current\" which is the latest revision in a given replica which might be stale\u0027",
       "parentUuid": "ef07a04f_56e8eddd",
+      "range": {
+        "startLine": 390,
+        "startChar": 37,
+        "endLine": 390,
+        "endChar": 43
+      },
+      "revId": "2fdfd1307797c0d75d16cc9fb0e744fe96e351d4",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ec577114_3db3be63",
+        "filename": "gerrit_client.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 390,
+      "author": {
+        "id": 3578280
+      },
+      "writtenOn": "2025-07-09T14:51:28Z",
+      "side": 1,
+      "message": "I think it would be too much info. Actually, let\u0027s just reuse the help message from a [different place in the same file](https://crrev.com/615f4a2f039e861d496c6e58bbff39821361148f/gerrit_client.py#420).",
+      "parentUuid": "30bceae2_37e269f8",
       "range": {
         "startLine": 390,
         "startChar": 37,
