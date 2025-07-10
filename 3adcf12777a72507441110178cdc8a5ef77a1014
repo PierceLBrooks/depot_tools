@@ -22,6 +22,30 @@
       },
       "revId": "3adcf12777a72507441110178cdc8a5ef77a1014",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "369f0d6b_09bb1158",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 9
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 4211776
+      },
+      "writtenOn": "2025-07-10T09:49:46Z",
+      "side": 1,
+      "message": "I rephrased the headline and added what CL actually does. Let me know if it\u0027s clear enough.",
+      "parentUuid": "c960f0e0_05524ba7",
+      "range": {
+        "startLine": 7,
+        "startChar": 0,
+        "endLine": 9,
+        "endChar": 302
+      },
+      "revId": "3adcf12777a72507441110178cdc8a5ef77a1014",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
