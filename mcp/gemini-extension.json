@@ -1,0 +1,10 @@
+{
+  "name": "host_information",
+  "version": "1.0.0",
+  "mcpServers": {
+    "host_information": {
+      "command": "vpython3",
+      "args": ["mcp/server.py"]
+    }
+  }
+}
