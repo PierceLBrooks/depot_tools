@@ -1,0 +1,10 @@
+{
+  "name": "chrome_infra",
+  "version": "1.0.0",
+  "mcpServers": {
+    "chrome_infra": {
+      "command": "vpython3",
+      "args": ["mcp/server.py"]
+    }
+  }
+}
