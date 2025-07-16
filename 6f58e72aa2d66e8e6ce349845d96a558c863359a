@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e343889b_efbc7f3f",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2025-07-16T18:03:19Z",
+      "side": 1,
+      "message": "@gavinmak@google.com Open to suggestions on where to put this if /mcp/ should be reserved. We plan on eventually using it in chromium/src via the third_party submodule but I want to build as many tools as we can in depot tools so we\u0027re not dependent on a chromium checkout to access them",
+      "revId": "6f58e72aa2d66e8e6ce349845d96a558c863359a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    }
+  ]
+}
