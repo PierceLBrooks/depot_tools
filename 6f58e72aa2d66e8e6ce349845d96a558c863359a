@@ -16,6 +16,74 @@
       "message": "@gavinmak@google.com Open to suggestions on where to put this if /mcp/ should be reserved. We plan on eventually using it in chromium/src via the third_party submodule but I want to build as many tools as we can in depot tools so we\u0027re not dependent on a chromium checkout to access them",
       "revId": "6f58e72aa2d66e8e6ce349845d96a558c863359a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "edb587d8_93966d0f",
+        "filename": "mcp/buildbucket.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1128941
+      },
+      "writtenOn": "2025-07-17T20:50:15Z",
+      "side": 1,
+      "message": "Line wrap at 80 everywhere?",
+      "revId": "6f58e72aa2d66e8e6ce349845d96a558c863359a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a7b5989d_15b8b02a",
+        "filename": "mcp/buildbucket.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1128941
+      },
+      "writtenOn": "2025-07-17T20:50:15Z",
+      "side": 1,
+      "message": "Are timeouts and retries handled by `prpc`? Are they handled by `bb`?",
+      "revId": "6f58e72aa2d66e8e6ce349845d96a558c863359a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "ab752413_19565808",
+        "filename": "mcp/gemini-extension.json",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1128941
+      },
+      "writtenOn": "2025-07-17T20:50:15Z",
+      "side": 1,
+      "message": "Maybe not necessary here since we\u0027ll have one in chromium/src and this isn\u0027t much configuration.",
+      "revId": "6f58e72aa2d66e8e6ce349845d96a558c863359a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "03392dda_f9d9c3f9",
+        "filename": "mcp/server.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1128941
+      },
+      "writtenOn": "2025-07-17T20:50:15Z",
+      "side": 1,
+      "message": "For my knowledge, why use this imperative approach versus a decorator on the definitions?",
+      "revId": "6f58e72aa2d66e8e6ce349845d96a558c863359a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
   ]
 }
