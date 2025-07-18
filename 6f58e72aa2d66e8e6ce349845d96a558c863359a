@@ -20,6 +20,29 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "3bd47ac7_f223ff92",
+        "filename": "mcp/buildbucket.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1367998
+      },
+      "writtenOn": "2025-07-18T16:47:19Z",
+      "side": 1,
+      "message": "can we make sure all the docstrings have 4 space indent to match the rest of depot_tools? like https://source.chromium.org/chromium/chromium/tools/depot_tools/+/main:gclient_utils.py;l\u003d1429-1447",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 5
+      },
+      "revId": "6f58e72aa2d66e8e6ce349845d96a558c863359a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "edb587d8_93966d0f",
         "filename": "mcp/buildbucket.py",
         "patchSetId": 7
