@@ -41,6 +41,30 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "74e5a37b_0b52195c",
+        "filename": "mcp/buildbucket.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2025-07-18T23:00:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "3bd47ac7_f223ff92",
+      "range": {
+        "startLine": 19,
+        "startChar": 0,
+        "endLine": 24,
+        "endChar": 5
+      },
+      "revId": "6f58e72aa2d66e8e6ce349845d96a558c863359a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "edb587d8_93966d0f",
@@ -54,6 +78,24 @@
       "writtenOn": "2025-07-17T20:50:15Z",
       "side": 1,
       "message": "Line wrap at 80 everywhere?",
+      "revId": "6f58e72aa2d66e8e6ce349845d96a558c863359a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4bb5f7c3_83046d3c",
+        "filename": "mcp/buildbucket.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 54,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2025-07-18T23:00:03Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "edb587d8_93966d0f",
       "revId": "6f58e72aa2d66e8e6ce349845d96a558c863359a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
@@ -75,6 +117,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "0964edd7_7c2b685d",
+        "filename": "mcp/buildbucket.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 87,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2025-07-18T23:00:03Z",
+      "side": 1,
+      "message": "It looks like it will support timeouts defined in the proto: https://pkg.go.dev/go.chromium.org/luci/grpc/prpc#Options.PerRPCTimeout\n\nAnd after a quick dive into bb I don\u0027t see it supporting either more than [prpc](https://source.chromium.org/chromium/infra/infra_superproject/+/main:infra/go/src/go.chromium.org/luci/buildbucket/cli/get.go;drc\u003defe7de00f4f652709094112168b47be362aaef94;l\u003d71).",
+      "parentUuid": "a7b5989d_15b8b02a",
+      "revId": "6f58e72aa2d66e8e6ce349845d96a558c863359a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "ab752413_19565808",
@@ -92,6 +152,24 @@
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "4593f2da_a98f8d87",
+        "filename": "mcp/gemini-extension.json",
+        "patchSetId": 7
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2025-07-18T23:00:03Z",
+      "side": 1,
+      "message": "Removed for now",
+      "parentUuid": "ab752413_19565808",
+      "revId": "6f58e72aa2d66e8e6ce349845d96a558c863359a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "03392dda_f9d9c3f9",
@@ -105,6 +183,24 @@
       "writtenOn": "2025-07-17T20:50:15Z",
       "side": 1,
       "message": "For my knowledge, why use this imperative approach versus a decorator on the definitions?",
+      "revId": "6f58e72aa2d66e8e6ce349845d96a558c863359a",
+      "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "6cf34f39_0744b196",
+        "filename": "mcp/server.py",
+        "patchSetId": 7
+      },
+      "lineNbr": 37,
+      "author": {
+        "id": 1513262
+      },
+      "writtenOn": "2025-07-18T23:00:03Z",
+      "side": 1,
+      "message": "This is how the [code mind](http://google3/gdm/codeai/codemind/cli/server.py?rcl\u003d784710783\u0026l\u003d33) one splits the tools into different files. Otherwise we would have to import the server in the tools instead (since there\u0027s only one server object), which if we did, would make handling flags/conditionally adding tools more difficult/decentralized and we would have to import these somehow still to get the registering to actually run",
+      "parentUuid": "03392dda_f9d9c3f9",
       "revId": "6f58e72aa2d66e8e6ce349845d96a558c863359a",
       "serverId": "3ce6091f-6c88-37e8-8c75-72f92ae8dfba"
     }
