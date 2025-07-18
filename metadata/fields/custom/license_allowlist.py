@@ -50,6 +50,7 @@ ALLOWED_SPDX_LICENSES = frozenset([
     "blessing",
     "CC0-1.0",
     "LicenseRef-Public-Domain-Gutenberg",
+    "LicenseRef-Public-Domain-SpanDSP",
     "LZMA-SDK-9.22",
     "Unlicense",
     # go/keep-sorted end
